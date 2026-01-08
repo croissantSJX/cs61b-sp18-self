@@ -1,7 +1,7 @@
 public class Planet {
     /* Create basic version of the Planet**/
     public double xxPos, yyPos,  xxVel, yyVel, mass;
-    public static final double G = 6.67e-11;
+    private static final double G = 6.67e-11;
     public String imgFileName;
 
     /* Initialize an instance of Planet**/
